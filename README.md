@@ -17,7 +17,7 @@ Build the solution in Visual Studio 2022, alternatively MSBuild took can be down
 Both the command-line utility and the test project are located in the same repository.
 
 # Command Line Utility
-## Utility Name: geocodeUtility.exe
+- Utility Name: geocodeUtility.exe
 
 Framework: Written in C#, .NET Framework 4.7.2.
 
