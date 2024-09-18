@@ -1,13 +1,8 @@
-# Introduction 
+
 This project is the QA take home exercise for Fetch
 
-# Getting Started
-Repository Overview:
-Both the command-line utility and the test project are located in the same repository.
-
-
-
 # Build and Test
+
 Build the solution in Visual Studio 2022, alternatively MSBuild took can be downloaded here https://visualstudio.microsoft.com/downloads/
 
 
@@ -55,11 +50,17 @@ Alternatively, refer to this blog for more details on obtaining vstest.console.e
  - Example Usage to Run Tests:
    "C:\Program Files (x86)\Microsoft Visual Studio\2022\TestAgent\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console" "C:\1MyFolder\TEMP\WeatherGeoCodeForFetch\WeatherGeoCodeForFetch\GeoCodeUtilityTestsProject\bin\Debug\net472\GeoCodeUtilityTestsProject.dll"
 
+
+   Once the execution is complete please check the GeoCodeTestData.xlsx excel file in the folder where the TestProjectbinary is located.
+   Example :  C:\1MyFolder\TEMP\WeatherGeoCodeForFetch\WeatherGeoCodeForFetch\GeoCodeUtilityTestsProject\bin\Debug\net472
+
+   This would show the scenarios executed, test data along with expected and actual results
+
 # Test Data Template
 A test data template (TestDataTemplate.xlsx) is provided for reference.
  - Note: The actual code expects the test data file to be named GeoCodeTestData.xlsx (hardcoded for simplicity).
           The test file reads data from the Excel sheet and writes the outcome or output from the API call back to the same file
 
-##Important Notes:
+# Important Notes:
 There are known, intentionally unfixed issues in the geocodeUtility.exe to demonstrate failed test cases. For example, the code does not handle invalid location names as expected.
 
