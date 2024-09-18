@@ -8,12 +8,24 @@ Both the command-line utility and the test project are located in the same repos
 
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Build the solution in Visual Studio 2022, alternatively MSBuild took can be downloaded here https://visualstudio.microsoft.com/downloads/
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+
+# Instructions for Command Line Utility and Test Project
+# Repository Overview:
+Both the command-line utility and the test project are located in the same repository.
+
+# Command Line Utility
+## Utility Name: geocodeUtility.exe
+
+Framework: Written in C#, .NET Framework 4.7.2.
+
+Parameters:
+
+The utility accepts inputs in the following formats, where the zip codes and location names can appear in any order:
+"Charlotte, NC"
+"Charlotte, NC", "Tampa, FL"
+"28277"
+"Charlotte, NC" "91011" "Tampa, FL"
+Note: The API key is hardcoded within the program to minimize complexity.
