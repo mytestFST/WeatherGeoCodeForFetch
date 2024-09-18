@@ -6,13 +6,13 @@ This project is the QA take home exercise for Fetch
 ## Repository Overview:
 Both the command-line utility and the test project are located in the same repository.
 
-# Build and Test
+## Build and Test
 
 Build the solution in Visual Studio 2022, alternatively MSBuild took can be downloaded here https://visualstudio.microsoft.com/downloads/
 
 
 
-# Command Line Utility
+## Command Line Utility
 - Utility Name: geocodeUtility.exe
 - Framework: Written in C#, .NET Framework 4.7.2.
 
@@ -28,7 +28,7 @@ Build the solution in Visual Studio 2022, alternatively MSBuild took can be down
 - Example Usage:
       geocodeUtility "Charlotte, NC"
 
-# Test Project
+## Test Project
 - Project Name: GeoCodeUtilityTestsProject
 
 - Framework: Written in C#, .NET Framework 4.7.2.
@@ -39,7 +39,7 @@ Build the solution in Visual Studio 2022, alternatively MSBuild took can be down
   Test Data File Name: GeoCodeTestData.xlsx (file name is hardcoded).
   Number of Test Cases: 13.
 
-# How to Execute the Tests:
+### How to Execute the Tests:
 
 You will need vstest.console.exe to run the test cases.
 This file is typically located in the following folder:
@@ -57,7 +57,7 @@ Alternatively, refer to this blog for more details on obtaining vstest.console.e
 
    This would show the scenarios executed, test data along with expected and actual results
 
-# Test Data Template
+### Test Data Template
 A test data template (TestDataTemplate.xlsx) is provided for reference.
  - Note: The actual code expects the test data file to be named GeoCodeTestData.xlsx (hardcoded for simplicity).
           The test file reads data from the Excel sheet and writes the outcome or output from the API call back to the same file
