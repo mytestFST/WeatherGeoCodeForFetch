@@ -8,7 +8,12 @@ Both the command-line utility and the test project are located in the same repos
 
 ## Build and Test
 
-Build the solution in Visual Studio 2022, alternatively MSBuild took can be downloaded here https://visualstudio.microsoft.com/downloads/
+Build the solution in Visual Studio 2022, 
+once built, you can run the tests by going to 
+
+Test->Test Explorer-> Run Tests
+
+alternatively MSBuild took can be downloaded here https://visualstudio.microsoft.com/downloads/
 
 
 
