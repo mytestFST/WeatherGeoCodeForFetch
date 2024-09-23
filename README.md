@@ -36,7 +36,7 @@ alternatively MSBuild took can be downloaded here https://visualstudio.microsoft
 
 
 The Utility can be found here at the binary location where the test project is,
- Example : <your-download folder>\WeatherGeoCodeForFetch\WeatherGeoCodeForFetch\##GeoCodeUtilityTestsProject\bin\Debug\net472
+ Example : <your-download folder>\WeatherGeoCodeForFetch\WeatherGeoCodeForFetch\GeoCodeUtilityTestsProject\bin\Debug\net472
 
 
 - Example Usage:
