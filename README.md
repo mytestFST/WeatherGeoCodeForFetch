@@ -18,10 +18,14 @@ alternatively MSBuild took can be downloaded here https://visualstudio.microsoft
 
 
 ## Command Line Utility
+
+
+
 - Utility Name: geocodeUtility.exe
 - Framework: Written in C#, .NET Framework 4.7.2.
 
-- Parameters:
+
+-  Parameters:
 
     The utility accepts inputs in the following formats, where the zip codes and location names can appear in any order:
       - "Charlotte, NC"
@@ -29,8 +33,11 @@ alternatively MSBuild took can be downloaded here https://visualstudio.microsoft
       - "28277"
       - "Charlotte, NC" "91011" "Tampa, FL"
 - Note: The API key is hardcoded within the program to minimize complexity.
-The Utilit can be found here at the binary location where the test project is,
- Example : <your-download folder>\WeatherGeoCodeForFetch\WeatherGeoCodeForFetch\GeoCodeUtilityTestsProject\bin\Debug\net472
+
+
+The Utility can be found here at the binary location where the test project is,
+ Example : <your-download folder>\WeatherGeoCodeForFetch\WeatherGeoCodeForFetch\##GeoCodeUtilityTestsProject\bin\Debug\net472
+
 
 - Example Usage:
       geocodeUtility "Charlotte, NC"
