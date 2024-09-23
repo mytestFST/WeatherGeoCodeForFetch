@@ -29,6 +29,8 @@ alternatively MSBuild took can be downloaded here https://visualstudio.microsoft
       - "28277"
       - "Charlotte, NC" "91011" "Tampa, FL"
 - Note: The API key is hardcoded within the program to minimize complexity.
+The Utilit can be found here at the binary location where the test project is,
+ Example : <your-download folder>\WeatherGeoCodeForFetch\WeatherGeoCodeForFetch\GeoCodeUtilityTestsProject\bin\Debug\net472
 
 - Example Usage:
       geocodeUtility "Charlotte, NC"
